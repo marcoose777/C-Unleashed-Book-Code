@@ -1,0 +1,6 @@
+Editor's Note: If you have problems compiling this, have a close look at the very first line of the file.
+
+Marcus: I've modified the original and created a newer version:asm-linux-x86_64.c. This now compiles with no errors or warnings using gcc option -Wall 
+. This required the c-library strtok call to be fixed so that it recognises unix \r\f line terminators. Correction to the char pointer type 
+declarations so that function parameter type and function call parameter type matched were required. Some additional sundry initialiser formatting 
+and return cleanup. 
